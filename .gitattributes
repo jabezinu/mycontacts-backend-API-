@@ -1,0 +1,8 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Force package.json and package-lock.json to use LF
+package.json text eol=lf
+package-lock.json text eol=lf 
+
+.gitattributes text eol=lf
